@@ -27,7 +27,7 @@
             <h1>Piki & Yao Ming</h1>
             <p>Akan melangsungkan resepsi pernikahan dalam:</p>
             <div class="simply-countdown"></div>
-            <a href="#undangan" class="btn btn-lgn mt-4">Lihat Undangan</a>
+            <a href="#home" class="btn btn-lgn mt-4">Lihat Undangan</a>
         </main>
     </section>
 
@@ -159,8 +159,113 @@
       </div>
     </section>
 
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Bagaimana Cinta Kami Bersemi</span>
+            <h2>Our Story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, velit repellat facilis omnis eaque ipsam!</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/kucing3.png);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Pertama Bertemu</h3>
+                    <span>1 Juni 2000</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, eligendi illo iure eum numquam soluta!</p>
+
+                  </div>
+                </div>
+
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(https://picsum.photos/300/300);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Mulai Serius</h3>
+                    <span>1 Januari 2005</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique nam minus ut et expedita voluptate, error vel sapiente.</p>
+
+                  </div>
+                </div>
+
+              </li>
+              <li>
+                <div class="timeline-image" style="background-image: url(https://picsum.photos/301/301);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Tunangan</h3>
+                    <span>7 November 2009</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus beatae illo sit voluptates atque optio! Consectetur cum iure architecto aliquid?</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memori Kisah Kami</span>
+            <h2>Gallery Foto</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo commodi optio impedit.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+            <a href="img/gallery/gede.png" data-toggle="lightbox" data-caption="Piki & Yao Ming 1" data-gallery="mygallery">
+              <img src="img/gallery/thumbnail/gede.png" alt="Piki & Yao Ming 1" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="https://picsum.photos/id/400/1200/768" data-toggle="lightbox" data-caption="Piki & Yao Ming 2" data-gallery="mygallery">
+              <img src="https://picsum.photos/id/400/400/533" alt="Piki & Yao Ming 2" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="https://picsum.photos/id/401/1200/768" data-toggle="lightbox" data-caption="Piki & Yao Ming 3" data-gallery="mygallery">
+              <img src="https://picsum.photos/id/401/400/533" alt="Piki & Yao Ming 3" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="https://picsum.photos/id/402/1200/768" data-toggle="lightbox" data-caption="Piki & Yao Ming 4" data-gallery="mygallery">
+              <img src="https://picsum.photos/id/402/400/533" alt="Piki & Yao Ming 4" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="https://picsum.photos/id/403/1200/768" data-toggle="lightbox" data-caption="Piki & Yao Ming 5" data-gallery="mygallery">
+              <img src="https://picsum.photos/id/403/400/533" alt="Piki & Yao Ming 5" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="https://picsum.photos/id/404/1200/768" data-toggle="lightbox" data-caption="Piki & Yao Ming 6" data-gallery="mygallery">
+              <img src="https://picsum.photos/id/404/400/533" alt="Piki & Yao Ming 6" class="img-fluid w-100 rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
     <script>
       simplyCountdown('.simply-countdown', {
@@ -176,5 +281,19 @@
             },
     });
     </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'visible';
+      })
+
+      offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'hidden';
+      })
+    </script>
+
   </body>
 </html>
