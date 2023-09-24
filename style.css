@@ -404,4 +404,9 @@ body {
     .timeline li .timeline-panel::after {
         top: 31px;
     }
+
+    .gallery .row{
+        margin: 30px;
+        padding: 30px;
+    }
 }
